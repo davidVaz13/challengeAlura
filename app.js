@@ -1,15 +1,10 @@
 function criptografar() {
     let texto = document.querySelector('textarea').value;
     let criptoE = texto.replace(/e/g, 'enter');
-    console.log(criptoE)
     let criptoI = criptoE.replace(/i/g, 'imes');
-    console.log(criptoI)
     let criptoA = criptoI.replace(/a/g, 'ai');
-    console.log(criptoA)
     let criptoO = criptoA.replace(/o/g, 'ober');
-    console.log(criptoO)
     let criptoU = criptoO.replace(/u/g, 'ufat');
-    console.log(criptoU)
     document.getElementById("resultado").value = criptoU;
     document.getElementById("img").hidden = true;
     document.getElementById("texto").value = "";
