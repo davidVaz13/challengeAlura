@@ -15,7 +15,8 @@
 - Processo 3: Eu consegui fazer grande parte do projeto de uma forma que eu considero satisfatória, pórem houve partes em que não consegui chegar ao resultado que queria, apesar de estar funcional. Grande parte da dificuldade que tive foi no CSS, com a adaptação do site para dispositivos móveis.
 
 
-https://github.com/davidVaz13/challengeAlura/assets/157931238/846f25aa-e02e-4e27-888e-4536b0b8dcbb
+https://github.com/davidVaz13/challengeAlura/assets/157931238/74bb26ea-6cab-4ceb-a1b1-7bd7208e2a49
+
 
 <h2>Tecnologias Usadas</h2>
 
