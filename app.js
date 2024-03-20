@@ -9,7 +9,6 @@ function criptografar() {
     document.getElementById("img").hidden = true;
     document.getElementById("texto").value = "";
     document.getElementById("img_tablet").hidden = true;
-
 }
 
 
