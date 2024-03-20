@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador de Texto</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body class="principal">
+
+        <main class="conteudo"> 
+            <img src="elementos/logo.png" alt="logo da alura" id="logo">
+            <section class="conteudo_codificador">
+                <textarea class="conteudo_codificador_texto " placeholder="Digite seu texto" id="texto"></textarea>
+                <img src="elementos/aviso.png" alt="aviso sobre o texto" id="aviso">
+                <div class="conteudo_codificador_botao">
+                    <button onclick="criptografar()" class="conteudo_codificador_botao1">Criptografar</button>
+                    <button onclick="descriptografar()" class="conteudo_codificador_botao2">Descriptografar</button>
+                </div>
+                
+
+            </section>
+            <section class="conteudo_resultado">
+                <div class="conteudo_resultado_texto">
+                    <textarea class="conteudo_resultado_texto1" id="resultado" ></textarea>
+                </div>
+                <div class="conteudo_resultado_copiar">
+                    <button onclick="copiar()" class="conteudo_resultado_copiar1">Copiar</button>
+                </div>
+                <div class="conteudo_resultado_img" id="img"> 
+                    <img src="elementos/resultado.png" alt="Imagem com pessoa segurando uma lupa, significando a falta de resultado" class="conteudo_resultado_img1">
+                </div>
+                <div class="conteudo_resultado_img_tablet">
+                    <img src="elementos/mensagem.png" alt="Mensagem avisando a falta de resultado" id="img_tablet">
+                </div>
+                
+                
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <p>Desenvolvido por David</p>
+        </footer>
+        
+    </body>
+
+    <script src="app.js"></script>
+
+</html>
